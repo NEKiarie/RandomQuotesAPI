@@ -36,22 +36,26 @@ body {
   font-size: 15px;
 }
 .quote-area i:first-child {
-    margin: 3px 10px 0 0;
+  margin: 3px 10px 0 0;
 }
 .quote-area i:last-child {
-    display: flex;
-    align-items: flex-end;
-    margin:  0 0 3px 10px;
+  display: flex;
+  align-items: flex-end;
+  margin: 0 0 3px 10px;
 }
-
 .quote-area .quote {
   font-size: 22px;
   text-align: center;
   word-break: break-all;
 }
 .content .author {
-    display: flex;
-    justify-content: flex-end;
-
-
+  margin-top: 20px;
+  font-size: 18px;
+  font-style: italic;
+  display: flex;
+  justify-content: flex-end;
+}
+.author span:first-child {
+  margin: -7px 5px 0 0;
+  font-family: monospace;
 }
