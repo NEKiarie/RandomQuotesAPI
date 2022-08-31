@@ -11,7 +11,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #000;
+  background: #5372F0;
 }
 .wrapper {
   width: 605px;
@@ -58,4 +58,23 @@ body {
 .author span:first-child {
   margin: -7px 5px 0 0;
   font-family: monospace;
+}
+.wrapper .buttons {
+  border-top: 1px solid #ccc;
+}
+.buttons .features {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.features ul {
+  display: flex;
+}
+.features ul li {
+  list-style: none;
+  margin-top: 0 5px;
+  height: 47px;
+  width: 47px;
+  border: 2px solid #5372F0;
 }
