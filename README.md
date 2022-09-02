@@ -1,10 +1,10 @@
 # RandomQuotesAPI
 
-GameOfThronesRandomQuotes is an application designed to generating random quotes by different characters from a blockbuster film "Game of Thrones".
+GameOfThronesRandomQuotesApp is an application designed to generating random quotes by different characters from a blockbuster film "Game of Thrones".
 
 ## Demo
 
-This an example of how the app should look.
+This is an example of how the app should look.
 
 ![demo image](images/Screenshot%20from%202022-09-02%2017-55-38.png)
 
