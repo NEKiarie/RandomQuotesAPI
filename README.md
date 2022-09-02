@@ -4,32 +4,26 @@ GameOfThronesRandomQuotes is an application designed to generating random quotes
 
 ## Demo
 
-Use this image as an example of how the app should work.
+This an example of how the app should look.
 
-![i](assets/demo.gif)
+![demo image](images/Screenshot%20from%202022-09-02%2017-55-38.png)
 
 > To view in VSCode, right click on the README.md file and select "Open Preview".
-
-
-
-## Setup
-
 
 
 ## Deliverables
 
 As a user, I can:
 
-1. See the quote received from the server, including its title,  and
+1. See the quote received from the server, including its Character play, and
    comments when the page loads. You will need to make a GET request to the
    following endpoint to retrieve the image data, along with its associated
    comments:
 
 
-2. Click on the heart icon to increase image likes on the page. **No persistence
-   is needed**.
+2. Click on the speaker icon to listen to the audio version of the quote on the page. **No persistence is needed**.
 
-3. Add a new comment to the page when the comment form is submitted. **No
+3. Copy and paste new comment to the page when the comment form is submitted. **No
    persistence is needed**.
 
 
