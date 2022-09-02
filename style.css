@@ -87,13 +87,13 @@ body {
   color: #fff;
   align-items: center;
   justify-content: center;
-  border: 2px solid #fff;
+  border: 2px solid #ff004f;
   transition: all 0.3s ease;
 }
 
 .features ul li:hover {
   color: #fff;
-  background: #ff004f;
+  background: #5372f0;
 }
 .features button {
   border: none;
