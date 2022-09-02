@@ -11,10 +11,10 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #5372f0;
+  background: #000;
 }
 .wrapper {
-  width: 605px;
+  width: 700px;
   background: #fff;
   border-radius: 15px;
   padding: 30px 30px 25px;
@@ -36,12 +36,12 @@ body {
   font-size: 15px;
 }
 .quote-area i:first-child {
-  margin: 3px 10px 0 0;
+  margin: 3px 5px 0 0;
 }
 .quote-area i:last-child {
   display: flex;
   align-items: flex-end;
-  margin: 0 0 3px 10px;
+  margin: 0 0 3px 5px;
 }
 .quote-area .quote {
   font-size: 22px;
@@ -77,18 +77,18 @@ body {
   height: 47px;
   width: 47px;
   cursor: pointer;
-  border-radius: 50%;
+  border-radius: 20%;
   display: flex;
-  color: #5372f0;
+  color: #ff004f;
   align-items: center;
   justify-content: center;
-  border: 2px solid #5372f0;
+  border: 2px solid #5372F0;
   transition: all 0.3s ease;
 }
 
 .features ul li:hover {
   color: #fff;
-  background: #5372f0;
+  background: #ff004f;
 }
 .features button {
   border: none;
@@ -97,6 +97,15 @@ body {
   cursor: pointer;
   font-style: 16px;
   padding: 13px 22px;
-  border-radius: 30px;
-  background: #5372f0;
+  border-radius: 50px;
+  background: #5372F0;
+  border: solid #fff;
 }
+
+.button .loading{
+    opacity: 0.7;
+    pointer-events: none;
+
+
+}
+
