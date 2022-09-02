@@ -15,15 +15,11 @@ This is an example of how the app should look.
 
 As a user, I can:
 
-1. See the quote received from the server, including its Character play, and
-   comments when the page loads. You will need to make a GET request to the
-   following endpoint to retrieve the image data, along with its associated
-   comments:
-
-
+1. See the quote received from the server, including its Character name. The user also has the ability to generate a new quote when the page loads.
+   
 2. Click on the speaker icon to listen to the audio version of the quote on the page. **No persistence is needed**.
 
-3. Copy and paste new comment to the page when the comment form is submitted. **No
+3. Ability to Copy and paste new quote. **No
    persistence is needed**.
 
 
