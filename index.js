@@ -39,8 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
   //Speech out the quoteText on a button click
   //SpeechSynthesisUtterance is web speech API method that represent a speech request
   soundButton.addEventListener("click", () => {
-    let utterance = new SpeechSynthesisUtterance(`${quoteText.innerText} Quote By: ${characterName.innerText}`
-    );
+    let utterance = new SpeechSynthesisUtterance(`${quoteText.innerText} Quote By: ${characterName.innerText}`);
     speechSynthesis.speak(utterance); 
   });
 
