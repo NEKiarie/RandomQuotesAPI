@@ -13,6 +13,8 @@ This is an outlook of the landing page of the app:
 
 ## Deliverables
 
+The data is rendered through the API(GameOfThrones API) and is available for consumption by the frontend.
+
 As a user, I can:
 
 1. See the quote received from the server, including its Character name. The user also has the ability to generate a new quote when the page loads.
@@ -24,4 +26,5 @@ As a user, I can:
    
 4. The User has the ability to share a random quote to a social media platform(Twitter).
 
+Below is the link to the live Site: https://gameofthronesquotesgenerator.netlify.app
 
